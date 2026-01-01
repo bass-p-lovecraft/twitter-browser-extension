@@ -3,7 +3,7 @@
  <img width="627" height="635" alt="Screenshot 2026-01-01 at 7 00 12 AM" src="https://github.com/user-attachments/assets/71b4998d-714b-4691-a595-25317e0c1d91" />
 
 A Chrome extension that adds configurable keyboard shortcuts to X/Twitter Spaces for faster control during live audio conversations.
-
+ 
 ## Features
 
 - **Custom hotkeys** for:
@@ -20,6 +20,7 @@ A Chrome extension that adds configurable keyboard shortcuts to X/Twitter Spaces
 ## Installation
 
 ### Step 1: Download the Extension Files
+<img width="1327" height="480" alt="Screenshot 2026-01-01 at 7 11 23 AM" src="https://github.com/user-attachments/assets/9cc94bfc-2660-45d2-bca2-bbc96289b906" />
 
 You'll need these files from the repository:
 - [manifest.json](manifest.json)
@@ -28,23 +29,18 @@ You'll need these files from the repository:
 - [popup.js](popup.js)
 - [icon.png](icon.png)
 
-**Option A: Clone the Repository**
-```bash
-git clone https://github.com/bass-p-lovecraft/twitter-spaces-bookmarklet.git
-cd twitter-spaces-bookmarklet
-```
-
 **Option B: Download Individual Files**
 1. Create a new folder on your computer called `x-spaces-hotkeys`
 2. Download each file above and save them all in that folder
 
 ### Step 2: Load the Extension in Chrome
+<img width="1866" height="432" alt="Screenshot 2026-01-01 at 7 15 47 AM" src="https://github.com/user-attachments/assets/bdadde4c-49de-4fc5-b98a-2f5b29657951" />
 
-1. Open Google Chrome
-2. Navigate to `chrome://extensions/`
+1. Open X App, Chrome, Brave, Edge
+2. Navigate to `<your browser>://extensions/`
 3. Enable **Developer mode** (toggle in the top-right corner)
 4. Click **Load unpacked**
-5. Select the folder containing the extension files (`twitter-spaces-bookmarklet` or `x-spaces-hotkeys`)
+5. Select the folder containing the extension files (`twitter-browser-extension`)
 6. The extension should now appear in your extensions list
 
 ### Step 3: Pin the Extension (Optional)
@@ -59,7 +55,6 @@ cd twitter-spaces-bookmarklet
 
 1. Join or host a Space on [x.com](https://x.com)
 2. Click the **X Spaces Hotkeys** extension icon in your toolbar
-   - Or use the keyboard shortcut: `Ctrl+Shift+K` (Windows/Linux) or `Cmd+Shift+K` (Mac)
 3. A popup will appear showing the configuration interface
 
 ### Configuring Shortcuts
@@ -93,7 +88,7 @@ If you request to speak too frequently, X may rate limit you. The extension will
 
 ## Compatibility
 
-- **Browser:** Chrome, Edge, and other Chromium-based browsers
+- **Browser:** Chrome, Edge, Brave, Browser Installed X App and other Chromium-based browsers
 - **Platform:** Desktop only (Windows, Mac, Linux)
 - **Tested:** December 2024 on x.com and twitter.com
 - **Adaptive:** Automatically adjusts to X's UI changes
@@ -103,7 +98,7 @@ If you request to speak too frequently, X may rate limit you. The extension will
 ### Extension Not Working
 
 1. **Reload the extension:**
-   - Go to `chrome://extensions/`
+   - Go to `<your browser>://extensions/`
    - Click the refresh icon on the X Spaces Hotkeys extension
    - Reload the X Spaces page
 
@@ -141,13 +136,13 @@ When updates are available:
 
 1. Download the latest files from the repository
 2. Replace the old files in your extension folder
-3. Go to `chrome://extensions/`
+3. Go to `<your browser>://extensions/`
 4. Click the refresh icon on the X Spaces Hotkeys extension
 5. Your settings are preserved (stored in Chrome's sync storage)
 
 ## Uninstalling
 
-1. Go to `chrome://extensions/`
+1. Go to `<your browser>://extensions/`
 2. Find "X Spaces Hotkeys"
 3. Click **Remove**
 4. Your hotkey settings will be deleted from Chrome storage
@@ -170,7 +165,7 @@ This extension:
 | **Storage** | Chrome sync storage | localStorage |
 | **Updates** | Manual file replacement | Copy/paste new code |
 | **Configuration UI** | Popup accessible anytime | Shows on activation |
-| **Keyboard Shortcut** | Ctrl/Cmd+Shift+K to open settings | N/A |
+ 
 
 ## Source Code
 
